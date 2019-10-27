@@ -1,11 +1,12 @@
 # AOSP
-Sync
+# Sync
+
 # Initialize local repository
 repo init -u https://github.com/FurySnailx/manifest -b ten
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-Build
+# Build
 # Set up environment
 $ . build/envsetup.sh
 
