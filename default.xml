@@ -718,9 +718,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
-  <!-- Add some LineageOS repos -->
+  
   <include name="snippets/lineage.xml" />
   
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
 </manifest>
