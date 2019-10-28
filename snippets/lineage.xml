@@ -62,7 +62,6 @@
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
   
   <!-- bt -->
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="lineage" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" remote="lineage" />
 
   <!-- Data ipa -->
