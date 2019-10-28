@@ -53,7 +53,6 @@
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <linkfile dest="hardware/qcom/sdm845/Android.mk" src="os_pickup.mk" />
   <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
