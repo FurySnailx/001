@@ -54,7 +54,6 @@
   <linkfile dest="hardware/qcom/sdm845/Android.mk" src="os_pickup.mk" />
   <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
-  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
   <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="lineage" />
