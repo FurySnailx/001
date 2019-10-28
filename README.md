@@ -2,7 +2,7 @@
 # Sync
 
 # Initialize local repository
-repo init -u https://github.com/FurySnailx/manifest -b ten
+repo init -u https://github.com/FurySnailx/manifest -b pie
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
