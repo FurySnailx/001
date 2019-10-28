@@ -4,14 +4,10 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-16.0" />
 
-  <project path="development" name="android_development" remote="los" />
 
   <!-- External -->
-  <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="los" />
-  <project path="external/elfutils" name="android_external_elfutils" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
@@ -65,15 +61,10 @@
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="los" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="los" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
   </project>
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="los" revision="lineage-16.0-caf" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="los" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="los" revision="lineage-16.0-caf" />
 
   <!-- Packages -->
@@ -94,5 +85,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
+
 
 </manifest>
