@@ -49,7 +49,6 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="lineage" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
