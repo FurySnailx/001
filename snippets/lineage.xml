@@ -116,6 +116,5 @@
   <!-- Ril -->
   <project path="hardware/ril" name="android_hardware_ril" revision="lineage-16.0" remote="lineage" />
   <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-16.0-caf" remote="lineage" />
-   
-      
+  
 <manifest>
