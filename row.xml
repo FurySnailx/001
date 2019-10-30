@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="aosp" fetch="ssh://git@github.com" revision="pie" />
+ <default remote="aosp" sync-c="true" sync-j="8" sync-f="true" />
+ <project path="crowdin" name="AOSP/crowdin" revision="master" />
+ <project path="frameworks/base" name="AOSP/platform_frameworks_base" />
+ <project path="manifest" name="AOSP/platform_manifest" />
+ <project path="packages/apps/OwlsNest" name="AOSP/platform_packages_apps_OwlsNest" />
+ <project path="packages/apps/SmartNavSettings" name="AOSP/platform_packages_apps_SmartNavSettings" />
+ <project path="packages/providers/DownloadProvider" name="AOSP/platform_packages_providers_DownloadProvider" />
+ <project path="device/oneplus/sdm845-common" name="AOSP-Devices/device_oneplus_sdm845-common" />
+ <project path="device/oneplus/sm8150-common" name="AOSP-Devices/device_oneplus_sm8150-common" />
+</manifest>
